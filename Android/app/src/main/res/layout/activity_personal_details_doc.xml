@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersonalDetailsDoc">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:background="#26A69A"
+        android:text="Personal Details"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="Name"
+            android:id="@+id/pname"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="Age"
+            android:layout_marginTop="16dp"
+            android:id="@+id/page"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="Higher education"
+            android:layout_marginTop="16dp"
+            android:id="@+id/phigheredu"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="Timings"
+            android:layout_marginTop="16dp"
+            android:id="@+id/ptimings"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="Specialities"
+            android:layout_marginTop="16dp"
+            android:id="@+id/pspecialities"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="Clinic/House no."
+            android:layout_marginTop="16dp"
+            android:id="@+id/phouseno"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="Town"
+            android:layout_marginTop="16dp"
+            android:id="@+id/ptown"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:padding="16dp"
+            android:hint="State"
+            android:layout_marginTop="16dp"
+            android:id="@+id/pstate"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Next"
+            android:background="#26A69A"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:id="@+id/pnext"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
